@@ -1,3 +1,15 @@
+ /*.features-list { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px; }
+
+.icones { 
+        display: none;
+    }
+
+.f {
+    width: 100%;
+}
 .feature-points {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -15,22 +27,22 @@ font-family: "Roboto", sans-serif;
     color: #434455;
     margin-top: 8px;
 }
-.features-list {
-  display: flex;
-align-items: flex-start;
-justify-content: center;
-flex-direction: row;
-gap: 24px;
-}
-.f {
-    flex-basis: calc((100% - 60px) / 4);
-}
-
 .features {
     padding: 120px 0;
 }
 
-.icones {
+@media screen and (min-width: 768px) {
+  .f {
+    width: calc((100% - 24px)/ 2);
+ }
+}
+
+    
+@media screen and (min-width: 1158px) {
+  .f {
+    width: calc((100% - 3 * 24px)/ 4);
+ }
+ .icones {
     display: flex;
 align-items: center;
 justify-content: center;
@@ -42,4 +54,90 @@ width: 264px;
 height: 112px;
 margin-bottom: 8px;
 background-color: #f4f4fd;
+}
+
+}  */
+
+.feature-points {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.feature-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.f {
+    flex-basis: auto;
+}
+
+.features {
+    padding: 96px 0;
+}
+
+.icones {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .features-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .f {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    .icones {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .features {
+        padding: 120px 0;
+    }
+
+    .features-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+        justify-content: center
+    }
+
+    .f {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .icones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 264px;
+        height: 112px;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        background-color: #f4f4fd;
+    }
 }

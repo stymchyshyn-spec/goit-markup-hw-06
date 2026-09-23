@@ -1,0 +1,45 @@
+.feature-points {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.feature-description {
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-top: 8px;
+}
+.features-list {
+  display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
+}
+.f {
+    flex-basis: calc((100% - 60px) / 4);
+}
+
+.features {
+    padding: 120px 0;
+}
+
+.icones {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 0;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+margin-bottom: 8px;
+background-color: #f4f4fd;
+}

@@ -1,7 +1,3 @@
-.hide {
-    display: none !important;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;;
@@ -45,41 +41,6 @@ img {
 img {
     max-width: 100%;
     height: auto; 
-}
-.sr-only {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  margin: -1px;
-}
-.container {
-    max-width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
-}
-.section {
-    padding: 96px 0
-}
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-@media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    }
-    
-    .section {
-        padding: 120px 0;
-    }
 }
 
 
