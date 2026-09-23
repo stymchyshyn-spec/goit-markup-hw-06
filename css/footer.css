@@ -153,11 +153,8 @@
     border-color: #31d0aa;
     outline: none;
 }
-@media screen and (min-width: 768px) {
-    .footer {
-        padding: 96px 0;
-    }
 
+   @media screen and (min-width: 768px) {
     .footer-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -177,10 +174,6 @@
         margin: 0 0 0 24px;
     }
 
-    .footer-social-title {
-        text-align: left;
-    }
-
     .footer-subscribe {
         margin: 72px 0 0;
         width: 100%;
@@ -189,12 +182,14 @@
     .footer-subscribe-form {
         flex-direction: row;
         align-items: center;
+        gap: 24px;
     }
 
     .footer-subscribe-input {
         width: 264px;
     }
 }
+
 @media screen and (min-width: 1158px) {
     .footer {
         padding: 100px 0;
