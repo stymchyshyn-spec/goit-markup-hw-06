@@ -54,6 +54,9 @@
     .icones {
         display: none;
     }
+     .feature-points {
+        text-align: left;
+    }
 }
 
 
