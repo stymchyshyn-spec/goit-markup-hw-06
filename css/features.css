@@ -44,6 +44,7 @@
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 72px;
+        text-align: left;
     }
 
     .f {

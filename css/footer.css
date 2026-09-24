@@ -156,6 +156,7 @@
 
    @media screen and (min-width: 768px) {
     .footer-container {
+         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -187,6 +188,9 @@
 
     .footer-subscribe-input {
         width: 264px;
+    }
+     .footer-social-title {
+        text-align: left;
     }
 }
 
